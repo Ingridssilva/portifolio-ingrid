@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ingrid Sousa — Desenvolvedora Full Stack</title>
+<meta name="description" content="Portfólio de Ingrid Sousa, Desenvolvedora Full Stack Júnior — sistemas web, automação e engenharia física.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a href="#top" class="logo">Ingrid Sousa<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" data-i18n="nav.about">Sobre</a>
+      <a href="#skills" data-i18n="nav.skills">Habilidades</a>
+      <a href="#projects" data-i18n="nav.projects">Projetos</a>
+      <a href="#experience" data-i18n="nav.experience">Experiência</a>
+      <a href="#education" data-i18n="nav.education">Formação</a>
+      <a href="#contact" data-i18n="nav.contact">Contato</a>
+      <div class="lang-toggle">
+        <button id="btnPt" class="active">PT</button>
+        <button id="btnEn">EN</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="eyebrow" data-i18n="hero.eyebrow">Disponível para novas oportunidades</div>
+      <h1 data-i18n-html="hero.title">Olá, eu sou <span class="accent">Ingrid Sousa</span></h1>
+      <p class="lead" data-i18n="hero.lead">
+        Desenvolvedora Full Stack Júnior de Santarém, Pará. Construo sistemas web internos do zero — do banco de dados à interface — e curso Engenharia Física na UFOPA.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary" data-i18n="hero.ctaProjects">Ver projetos</a>
+        <a href="#contact" class="btn btn-ghost" data-i18n="hero.ctaContact">Entrar em contato</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container about-grid">
+      <div>
+        <div class="section-title" data-i18n="about.tag">Sobre mim</div>
+        <h2 class="section-heading" data-i18n="about.heading">Quem eu sou</h2>
+        <p data-i18n="about.p1">
+          Sou desenvolvedora full stack júnior com base sólida em desenvolvimento web e computação científica. Trabalhei como única profissional de TI responsável por duas regiões operacionais, construindo e mantendo cerca de 12 sistemas internos do zero — desde o levantamento de requisitos até o deploy em produção.
+        </p>
+        <p data-i18n="about.p2">
+          Gosto de resolver problemas reais de operação com software simples e confiável: fluxos de aprovação, geração de documentos, automações e integrações com Microsoft 365. Também curso Engenharia Física, o que me deu uma base extra em modelagem numérica e resolução de problemas com Python.
+        </p>
+      </div>
+      <dl class="facts">
+        <dt data-i18n="about.location">Localização</dt>
+        <dd data-i18n="about.locationValue">Santarém, Pará, Brasil</dd>
+        <dt data-i18n="about.role">Cargo</dt>
+        <dd data-i18n="about.roleValue">Desenvolvedora Full Stack Júnior</dd>
+        <dt data-i18n="about.education">Formação</dt>
+        <dd data-i18n="about.educationValue">Engenharia Física — UFOPA (em andamento)</dd>
+        <dt data-i18n="about.status">Status</dt>
+        <dd data-i18n="about.statusValue">Aberta a novas oportunidades</dd>
+        <dt data-i18n="about.email">E-mail</dt>
+        <dd><a href="mailto:ingridsousa291@gmail.com">ingridsousa291@gmail.com</a></dd>
+      </dl>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-title" data-i18n="skills.tag">Stack técnica</div>
+      <h2 class="section-heading" data-i18n="skills.heading">Habilidades &amp; ferramentas</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3 data-i18n="skills.backend">Backend</h3>
+          <div class="tag-list">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills.frontend">Frontend</h3>
+          <div class="tag-list">
+            <span class="tag">React</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills.data">Dados &amp; Infraestrutura</h3>
+          <div class="tag-list">
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Supabase</span>
+            <span class="tag">Cloudflare D1</span>
+            <span class="tag">Render</span>
+            <span class="tag">Git / GitHub</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills.integrations">Integrações &amp; Identidade</h3>
+          <div class="tag-list">
+            <span class="tag">Azure AD / MSAL</span>
+            <span class="tag">Microsoft Graph</span>
+            <span class="tag">SharePoint</span>
+            <span class="tag">Microsoft 365 Admin</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills.scientific">Computação científica</h3>
+          <div class="tag-list">
+            <span class="tag">Python científico</span>
+            <span class="tag" data-i18n="skills.heatTransfer">Transferência de calor</span>
+            <span class="tag" data-i18n="skills.electricalMachines">Máquinas elétricas</span>
+            <span class="tag">Modelagem numérica</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills.other">Outros</h3>
+          <div class="tag-list">
+            <span class="tag" data-i18n="skills.pwa">PWA / Offline-first</span>
+            <span class="tag" data-i18n="skills.pdfGen">Geração de PDF</span>
+            <span class="tag" data-i18n="skills.itSupport">Suporte técnico</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-title" data-i18n="projects.tag">Trabalho</div>
+      <h2 class="section-heading" data-i18n="projects.heading">Sistemas &amp; projetos</h2>
+
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all" data-i18n="filter.all">Todos</button>
+        <button class="filter-btn" data-filter="internal" data-i18n="filter.internal">Sistemas internos</button>
+        <button class="filter-btn" data-filter="personal" data-i18n="filter.personal">Pessoais / Freelance</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <div class="project-card" data-category="internal">
+          <span class="badge" data-i18n="badge.internal">Sistema interno</span>
+          <h3 data-i18n="proj.assets.title">Controle de Patrimônio</h3>
+          <p data-i18n="proj.assets.desc">Sistema de inventário de eletrônicos e patrimônio com geração automática de termos de responsabilidade em PDF, mantendo o histórico de posse de cada item.</p>
+          <div class="tag-list"><span class="tag">React</span><span class="tag">Flask</span><span class="tag">PostgreSQL</span><span class="tag">Geração de PDF</span></div>
+        </div>
+
+        <div class="project-card" data-category="internal">
+          <span class="badge" data-i18n="badge.internal">Sistema interno</span>
+          <h3 data-i18n="proj.fuel.title">Gestão de Combustível</h3>
+          <p data-i18n="proj.fuel.desc">Controle de abastecimento com rastreamento de bombonas, detecção de fraude e suporte a lançamentos retroativos para operações de campo.</p>
+          <div class="tag-list"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Supabase</span></div>
+        </div>
+
+        <div class="project-card" data-category="internal">
+          <span class="badge" data-i18n="badge.internal">Sistema interno</span>
+          <h3 data-i18n="proj.travel.title">Requisição de Passagem &amp; Diária</h3>
+          <p data-i18n="proj.travel.desc">Workflow de aprovação em múltiplas etapas para viagens e refeições, com geração de PDF e envio automático para SharePoint.</p>
+          <div class="tag-list"><span class="tag">React</span><span class="tag">Flask</span><span class="tag">Microsoft Graph</span><span class="tag">SharePoint</span></div>
+        </div>
+
+        <div class="project-card" data-category="internal">
+          <span class="badge" data-i18n="badge.internal">Sistema interno</span>
+          <h3 data-i18n="proj.hr.title">Plataforma de RH &amp; Admissão</h3>
+          <p data-i18n="proj.hr.desc">Plataforma de recrutamento e admissão com fluxo de onboarding guiado em 17 etapas, do cadastro do candidato à integração completa.</p>
+          <div class="tag-list"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">PostgreSQL</span></div>
+        </div>
+
+        <div class="project-card" data-category="internal">
+          <span class="badge" data-i18n="badge.internal">Sistema interno</span>
+          <h3 data-i18n="proj.food.title">Requisição de Suprimentos</h3>
+          <p data-i18n="proj.food.desc">Sistema de requisição de alimentos e suprimentos para alojamentos de campo, com controle de estoque e aprovação por unidade.</p>
+          <div class="tag-list"><span class="tag">React</span><span class="tag">Flask</span><span class="tag">PostgreSQL</span></div>
+        </div>
+
+        <div class="project-card" data-category="internal">
+          <span class="badge" data-i18n="badge.internal">Sistema interno</span>
+          <h3 data-i18n="proj.vacation.title">Férias &amp; Exames Ocupacionais</h3>
+          <p data-i18n="proj.vacation.desc">Gestão de férias e exames ocupacionais (ASO), com lembretes automáticos de vencimento e histórico por colaborador.</p>
+          <div class="tag-list"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Supabase</span></div>
+        </div>
+
+        <div class="project-card" data-category="internal">
+          <span class="badge" data-i18n="badge.internal">Sistema interno</span>
+          <h3 data-i18n="proj.fleet.title">Manutenção de Frota</h3>
+          <p data-i18n="proj.fleet.desc">Gestão de manutenção de frota com quadro Kanban, workflow de aprovação de ordens de serviço, cotações de orçamento e notificações financeiras.</p>
+          <div class="tag-list"><span class="tag">React</span><span class="tag">Flask</span><span class="tag">Supabase (PostgreSQL)</span><span class="tag">Kanban</span></div>
+        </div>
+
+        <div class="project-card" data-category="internal">
+          <span class="badge" data-i18n="badge.internal">Sistema interno</span>
+          <h3 data-i18n="proj.safety.title">Inspeção de Segurança do Trabalho</h3>
+          <p data-i18n="proj.safety.desc">Aplicativo web progressivo (PWA) para inspeções de segurança em campo, com capacidade offline e sincronização posterior.</p>
+          <div class="tag-list"><span class="tag">PWA</span><span class="tag">React</span><span class="tag">Offline-first</span></div>
+        </div>
+
+        <div class="project-card" data-category="internal">
+          <span class="badge" data-i18n="badge.internal">Sistema interno</span>
+          <h3 data-i18n="proj.schedule.title">Escala de Equipe</h3>
+          <p data-i18n="proj.schedule.desc">Sistema de escala de equipe que lê planilhas Excel do SharePoint via Microsoft Graph, com quadro Kanban para acompanhar colaboradores emprestados entre setores.</p>
+          <div class="tag-list"><span class="tag">React</span><span class="tag">Microsoft Graph</span><span class="tag">Excel/SharePoint</span></div>
+        </div>
+
+        <div class="project-card" data-category="internal">
+          <span class="badge" data-i18n="badge.internal">Sistema interno</span>
+          <h3 data-i18n="proj.eval.title">Avaliação de Desempenho</h3>
+          <p data-i18n="proj.eval.desc">Sistema de avaliação de colaboradores, migrado de um protótipo em Streamlit para uma arquitetura serverless em Cloudflare Pages + D1.</p>
+          <div class="tag-list"><span class="tag">Cloudflare Pages</span><span class="tag">Cloudflare D1</span><span class="tag">Streamlit</span></div>
+        </div>
+
+        <div class="project-card" data-category="internal">
+          <span class="badge" data-i18n="badge.internal">Sistema interno</span>
+          <h3 data-i18n="proj.costs.title">Custos Fixos &amp; Contratos</h3>
+          <p data-i18n="proj.costs.desc">Sistema de gestão de custos fixos e contratos, centralizando vencimentos, valores e responsáveis por contrato.</p>
+          <div class="tag-list"><span class="tag">React</span><span class="tag">Flask</span><span class="tag">PostgreSQL</span></div>
+        </div>
+
+        <div class="project-card" data-category="personal">
+          <span class="badge" data-i18n="badge.personal">Projeto pessoal</span>
+          <h3 data-i18n="proj.invoice.title">Processador de Notas Fiscais</h3>
+          <p data-i18n="proj.invoice.desc">Ferramenta em Python para renomear e organizar automaticamente documentos fiscais em PDF a partir dos dados extraídos de cada nota.</p>
+          <div class="tag-list"><span class="tag">Python</span><span class="tag">Processamento de PDF</span><span class="tag">Automação</span></div>
+        </div>
+
+        <div class="project-card" data-category="personal">
+          <span class="badge" data-i18n="badge.personal">Freelance</span>
+          <h3 data-i18n="proj.social.title">Estratégia de Mídias Sociais</h3>
+          <p data-i18n="proj.social.desc">Planejamento de conteúdo e branding para redes sociais, incluindo uma campanha de identidade visual para um estúdio de tatuagem.</p>
+          <div class="tag-list"><span class="tag" data-i18n="tag.contentStrategy">Estratégia de conteúdo</span><span class="tag">Branding</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-title" data-i18n="exp.tag">Trajetória</div>
+      <h2 class="section-heading" data-i18n="exp.heading">Experiência profissional</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="role" data-i18n="exp.role2">Analista de TI / Desenvolvedora Full Stack</div>
+          <div class="org">Rezende Energia</div>
+          <div class="period" data-i18n="exp.period2">até agosto de 2026</div>
+          <ul>
+            <li data-i18n="exp.role2.b1">Única profissional de TI responsável pelas regiões Nordeste e Oeste da operação.</li>
+            <li data-i18n="exp.role2.b2">Projetou, construiu e manteve cerca de 12 sistemas web internos do zero, cobrindo patrimônio, frota, RH, segurança do trabalho e gestão financeira.</li>
+            <li data-i18n="exp.role2.b3">Administrou identidade e acesso (Microsoft 365 / Azure AD), suporte técnico e infraestrutura de TI da operação.</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <div class="role" data-i18n="exp.role1">Estagiária de Processos e Tecnologia</div>
+          <div class="org">Rezende Energia</div>
+          <div class="period" data-i18n="exp.period1">Estágio inicial</div>
+          <ul>
+            <li data-i18n="exp.role1.b1">Iniciou na área de Processos e Tecnologia, migrando para desenvolvimento full stack conforme a demanda por sistemas internos cresceu.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <div class="section-title" data-i18n="edu.tag">Formação</div>
+      <h2 class="section-heading" data-i18n="edu.heading">Educação</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <h3 data-i18n="edu.physics.title">Engenharia Física</h3>
+          <div class="org">UFOPA — Universidade Federal do Oeste do Pará</div>
+          <div class="period" data-i18n="edu.physics.period">Em andamento</div>
+          <p data-i18n="edu.physics.desc">Modelagem numérica em Python, incluindo transferência de calor e máquinas elétricas.</p>
+        </div>
+        <div class="edu-card">
+          <h3 data-i18n="edu.bacharelado.title">Bacharelado em Ciência e Tecnologia</h3>
+          <div class="org">UFOPA — Universidade Federal do Oeste do Pará</div>
+          <div class="period" data-i18n="edu.bacharelado.period">Concluído</div>
+          <p data-i18n="edu.bacharelado.desc">Formação interdisciplinar em ciências exatas, base para a especialização em Engenharia Física.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-box">
+        <h2 data-i18n="contact.heading">Vamos conversar</h2>
+        <p data-i18n="contact.lead">Aberta a oportunidades como desenvolvedora júnior. Envie uma mensagem ou conecte-se comigo.</p>
+        <div class="contact-links">
+          <a href="mailto:ingridsousa291@gmail.com">✉️ ingridsousa291@gmail.com</a>
+          <a href="#" id="linkedinLink" data-i18n="contact.linkedin">🔗 LinkedIn <span class="edit-note">editar link</span></a>
+          <a href="#" id="githubLink" data-i18n="contact.github">💻 GitHub <span class="edit-note">editar link</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <span data-i18n-html="footer.text">&copy; 2026 Ingrid Sousa. Feito com HTML, CSS e JavaScript.</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
