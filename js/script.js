@@ -3,8 +3,8 @@
 // EDIT ME: update the LINKS object below with your real profile URLs.
 // ---------------------------------------------------------------
 const LINKS = {
-  linkedin: "https://www.linkedin.com/in/SEU-USUARIO", // <- replace with your LinkedIn URL
-  github: "https://github.com/SEU-USUARIO"            // <- replace with your GitHub URL
+  linkedin: "https://www.linkedin.com/in/ingrid-sousa-419751190",
+  github: "https://github.com/Ingridssilva"
 };
 
 document.getElementById("linkedinLink").href = LINKS.linkedin;
@@ -166,8 +166,8 @@ const translations = {
 
     "contact.heading": "Let's talk?",
     "contact.lead": "Open to opportunities in Web Development and Full Stack. Send a message or connect with me.",
-    "contact.linkedin": '🔗 LinkedIn <span class="edit-note">edit link</span>',
-    "contact.github": '💻 GitHub <span class="edit-note">edit link</span>',
+    "contact.linkedin": "🔗 LinkedIn",
+    "contact.github": "💻 GitHub",
 
     "footer.text": "&copy; 2026 Ingrid Sousa. Built with HTML, CSS and JavaScript."
   }
