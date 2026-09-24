@@ -405,6 +405,29 @@ footer {
 
 [data-i18n], [data-i18n-html] { }
 
+.quote-box {
+  background: var(--card);
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  padding: 22px 28px;
+  color: var(--text-dim);
+  font-style: italic;
+  font-size: 1.02rem;
+  margin: 0 0 16px;
+}
+.quote-box:last-child { margin-bottom: 0; }
+
+.timeline-item.timeline-alt::before { background: var(--accent-2); box-shadow: 0 0 0 2px var(--accent-2); }
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+@media (max-width: 760px) {
+  .two-col { grid-template-columns: 1fr; }
+}
+
 .hidden { display: none !important; }
 
 @media (max-width: 760px) {
